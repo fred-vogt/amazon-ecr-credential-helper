@@ -21,7 +21,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/config"
+	"github.com/awslabs/amazon-ecr-credential-helper/config"
 	"github.com/mitchellh/go-homedir"
 	"github.com/sirupsen/logrus"
 )

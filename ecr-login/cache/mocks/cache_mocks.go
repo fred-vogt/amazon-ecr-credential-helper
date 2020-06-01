@@ -17,7 +17,7 @@
 package mock_cache
 
 import (
-	cache "github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cache"
+	cache "github.com/awslabs/amazon-ecr-credential-helper/cache"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -19,7 +19,7 @@ package mock_api
 import (
 	aws "github.com/aws/aws-sdk-go/aws"
 	session "github.com/aws/aws-sdk-go/aws/session"
-	api "github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
+	api "github.com/awslabs/amazon-ecr-credential-helper/api"
 	gomock "github.com/golang/mock/gomock"
 )
 

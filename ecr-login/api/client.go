@@ -24,7 +24,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ecr"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/cache"
+	"github.com/awslabs/amazon-ecr-credential-helper/cache"
 	"github.com/sirupsen/logrus"
 )
 

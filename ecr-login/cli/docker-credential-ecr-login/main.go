@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"os"
 
-	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/config"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/version"
+	ecr "github.com/awslabs/amazon-ecr-credential-helper"
+	"github.com/awslabs/amazon-ecr-credential-helper/api"
+	"github.com/awslabs/amazon-ecr-credential-helper/config"
+	"github.com/awslabs/amazon-ecr-credential-helper/version"
 	"github.com/docker/docker-credential-helpers/credentials"
 )
 

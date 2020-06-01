@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
-	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/mocks"
+	ecr "github.com/awslabs/amazon-ecr-credential-helper/api"
+	"github.com/awslabs/amazon-ecr-credential-helper/mocks"
 	"github.com/docker/docker-credential-helpers/credentials"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
