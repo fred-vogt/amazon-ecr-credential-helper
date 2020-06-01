@@ -19,9 +19,9 @@ cd "${ROOT}"
 # Builds the ecr-login binary from source in the specified destination paths.
 mkdir -p $1
 
-cd "${ROOT}"
+cd "${ROOT}/ecr-login"
 
-package_root="github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
+package_root="github.com/awslabs/amazon-ecr-credential-helper"
 
 version_ldflags=""
 if [[ -n "${2}" ]]; then
@@ -34,5 +34,5 @@ fi
 
 GOOS=$TARGET_GOOS GOARCH=$TARGET_GOARCH CGO_ENABLED=0 \
        	go build -installsuffix cgo -a -ldflags "-s ${version_ldflags}" \
-       	-o $1/docker-credential-ecr-login \
-	./ecr-login/cli/docker-credential-ecr-login
+       	-o ../$1/docker-credential-ecr-login \
+	./cli/docker-credential-ecr-login
